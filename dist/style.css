@@ -1,0 +1,53 @@
+html, body, pre, code, kbd, samp {
+  font-family: "Press Start 2P"; }
+
+body {
+  margin: 20px; }
+  body .star {
+    position: absolute; }
+    body .star:nth-of-type(1) {
+      left: 20px;
+      top: 225px; }
+    body .star:nth-of-type(2) {
+      left: 100px;
+      top: 100px; }
+    body .star:nth-of-type(3) {
+      right: 20px;
+      top: 300px; }
+    body .star:nth-of-type(4) {
+      left: 70px;
+      bottom: 0; }
+    body .star:nth-of-type(5) {
+      right: 20px;
+      top: 10px; }
+    body .star:nth-of-type(6) {
+      right: 50px;
+      bottom: 0; }
+
+.container {
+  width: 600px;
+  margin: 0 auto; }
+
+.title {
+  text-align: center; }
+
+.balloon {
+  margin-top: 20px; }
+  .balloon .nes-balloon {
+    max-width: 600px;
+    margin: 2rem 2rem; }
+  .balloon .messages {
+    display: flex;
+    flex-direction: column; }
+  .balloon .message {
+    display: flex; }
+    .balloon .message.-left {
+      align-self: flex-start; }
+    .balloon .message.-right {
+      align-self: flex-end; }
+    .balloon .message > i {
+      align-self: flex-end;
+      position: relative;
+      display: inline-block;
+      width: 64px;
+      height: 64px; }
