@@ -23,31 +23,28 @@ body {
     body .star:nth-of-type(6) {
       right: 50px;
       bottom: 0; }
-
-.container {
-  width: 600px;
-  margin: 0 auto; }
-
-.title {
-  text-align: center; }
-
-.balloon {
-  margin-top: 20px; }
-  .balloon .nes-balloon {
-    max-width: 600px;
-    margin: 2rem 2rem; }
-  .balloon .messages {
-    display: flex;
-    flex-direction: column; }
-  .balloon .message {
-    display: flex; }
-    .balloon .message.-left {
-      align-self: flex-start; }
-    .balloon .message.-right {
-      align-self: flex-end; }
-    .balloon .message > i {
-      align-self: flex-end;
-      position: relative;
-      display: inline-block;
-      width: 64px;
-      height: 64px; }
+  body .container {
+    width: 600px;
+    margin: 0 auto; }
+  body .title {
+    text-align: center; }
+  body .balloon {
+    margin-top: 20px; }
+    body .balloon .nes-balloon {
+      max-width: 600px;
+      margin: 2rem 2rem; }
+    body .balloon .messages {
+      display: flex;
+      flex-direction: column; }
+    body .balloon .message {
+      display: flex; }
+      body .balloon .message.-left {
+        align-self: flex-start; }
+      body .balloon .message.-right {
+        align-self: flex-end; }
+      body .balloon .message > i {
+        align-self: flex-end;
+        position: relative;
+        display: inline-block;
+        width: 64px;
+        height: 64px; }

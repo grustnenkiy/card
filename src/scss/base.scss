@@ -38,47 +38,47 @@ body {
             bottom: 0;
         }
     }
-}
 
-.container {
-    width: 600px;
-    margin: 0 auto;
-}
-
-.title {
-    text-align: center;
-}
-
-.balloon {
-    margin-top: 20px;
-
-    .nes-balloon {
-        max-width: 600px;
-        margin: 2rem 2rem;
+    .container {
+        width: 600px;
+        margin: 0 auto;
     }
-
-    .messages {
-     display: flex;
-     flex-direction: column;
+    
+    .title {
+        text-align: center;
     }
-
-    .message {
-        display: flex;
-
-        &.-left {
-            align-self: flex-start;
+    
+    .balloon {
+        margin-top: 20px;
+    
+        .nes-balloon {
+            max-width: 600px;
+            margin: 2rem 2rem;
         }
-
-        &.-right {
-            align-self: flex-end;
+    
+        .messages {
+         display: flex;
+         flex-direction: column;
         }
-
-        > i {
-            align-self: flex-end;
-            position: relative;
-            display: inline-block;
-            width: 64px;
-            height: 64px;
+    
+        .message {
+            display: flex;
+    
+            &.-left {
+                align-self: flex-start;
+            }
+    
+            &.-right {
+                align-self: flex-end;
+            }
+    
+            > i {
+                align-self: flex-end;
+                position: relative;
+                display: inline-block;
+                width: 64px;
+                height: 64px;
+            }
         }
     }
 }
